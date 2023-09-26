@@ -1,0 +1,6 @@
+version: '1'
+services:
+  server:
+    image: httpd
+    expose:
+      port: 8081:80
